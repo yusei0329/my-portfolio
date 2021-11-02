@@ -7,7 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: "YUSEI NIWA",
-    author: "Reffect",
+    author: "Works",
     category: ["Laravel", "Vue.js", "React"],
     user: { name: "Yusei Niwa", email: "nwys.28@gmail.com" 
   },

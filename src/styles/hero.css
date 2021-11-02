@@ -1,0 +1,8 @@
+.hero {
+  margin: 100px 0px;
+}
+
+.hero-text {
+  font-size: calc(24px + 1.5vw);
+  line-height: 1.2;
+}

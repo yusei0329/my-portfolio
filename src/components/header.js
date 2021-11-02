@@ -1,5 +1,7 @@
 import React from 'react'
-import { useStaticQuery, Link, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
+import Icon from "../images/my-icon.jpeg"
+import "../styles/header.css"
 
 const Header = () => {
   const data = useStaticQuery(
@@ -8,25 +10,20 @@ const Header = () => {
         site {
           siteMetadata {
             title
+            user {
+              email
+            }
           }
         }
       }
     `
   )
-  
+
   return (
     <header>
+      <img className="icon-img" src={Icon} alt="Icon" />
       <h2>{data.site.siteMetadata.title}</h2>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">top</Link>
-          </li>
-          <li>
-            <Link to="/about">about</Link>
-          </li>
-        </ul>
-      </nav>
+      <a className="mail-text" href="mailto:nwys.28@gmail.com">{data.site.siteMetadata.user.email}</a>
     </header>
   )
 }
