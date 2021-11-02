@@ -2,7 +2,7 @@
 title: "のーくらいむ"
 date: "2020-08-18"
 topImage: "../images/mitei.jpg"
-link: "https://www.youtube.com/"
+link: "https://youtu.be/N0VEpKFKMZM"
 ---
 
 ### のーくらいむ 安全防犯アプリケーション

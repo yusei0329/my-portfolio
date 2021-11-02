@@ -2,7 +2,7 @@
 title: "集中監視ちゃん"
 date: "2020-08-18"
 topImage: "../images/euq.jpg"
-link: "https://www.youtube.com/"
+link: "https://youtu.be/0A2L1U1tCQ0"
 ---
 
 ### のーくらいむ 安全防犯アプリケーション
