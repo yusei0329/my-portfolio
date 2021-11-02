@@ -38,11 +38,23 @@
 }
 
 .mail-text {
+	margin-right: 15px;
 	text-decoration: none;
 	color: #000;
 	margin-bottom: 50px;
 }
 
 .mail-text:hover {
+	color:red;
+}
+
+.github-text {
+	margin-left: 15px;
+	text-decoration: none;
+	color: #000;
+	margin-bottom: 50px;
+}
+
+.github-text:hover {
 	color:red;
 }

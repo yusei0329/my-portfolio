@@ -8,8 +8,7 @@ module.exports = {
   siteMetadata: {
     title: "YUSEI NIWA",
     author: "Works",
-    category: ["Laravel", "Vue.js", "React"],
-    user: { name: "Yusei Niwa", email: "nwys.28@gmail.com" 
+    user: { name: "Yusei Niwa", email: "nwys.28@gmail.com", github: "https://github.com/yusei0329"
   },
 },
   /* Your site config here */
