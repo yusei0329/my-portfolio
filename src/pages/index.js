@@ -4,7 +4,6 @@ import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 
 
-
 export default function Home({ data }) {
   return (
     <div>
