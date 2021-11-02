@@ -5,6 +5,7 @@ import Img from "gatsby-image"
 import "../styles/post.css"
 
 export default function Post({ data }) {
+  const link = data.markdownRemark.frontmatter.link;
   return (
     <WorksLayout>
       <div className="post-header">
@@ -15,6 +16,7 @@ export default function Post({ data }) {
         alt="cover"
       />
       <div className="post-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+      <a href={link}　target="_blank">{data.markdownRemark.frontmatter.link}</a>
     </WorksLayout>
   )
 }
@@ -25,6 +27,7 @@ query($slug: String!) {
     html
     frontmatter {
       title
+      link
       topImage {
         childImageSharp {
           fluid(maxWidth: 300) {

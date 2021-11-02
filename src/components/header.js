@@ -19,11 +19,12 @@ const Header = () => {
     `
   )
 
+  const mailLink = "mailto: " + data.site.siteMetadata.user.email;
   return (
     <header>
       <img className="icon-img" src={Icon} alt="Icon" />
-      <h2>{data.site.siteMetadata.title}</h2>
-      <a className="mail-text" href="mailto:nwys.28@gmail.com">{data.site.siteMetadata.user.email}</a>
+      <h2 className="main-h2-text">{data.site.siteMetadata.title}</h2>
+      <a className="mail-text" href={mailLink}>{data.site.siteMetadata.user.email}</a>
     </header>
   )
 }
