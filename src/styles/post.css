@@ -1,3 +1,15 @@
+@keyframes titleAnimation {
+  0% {
+    transform: translateX(-25px);
+    opacity: 0;
+  }
+}
+
+.main-post {
+  animation: titleAnimation 1.5s;
+}
+
+
 .post-header {
   margin: 80px auto;
   max-width: 700px;

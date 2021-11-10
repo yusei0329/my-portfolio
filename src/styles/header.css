@@ -23,6 +23,17 @@
 	}
 }
 
+@keyframes titleAnimation {
+  0% {
+    transform: translateX(-25px);
+    opacity: 0;
+  }
+}
+
+header .title-header{
+	animation: titleAnimation 1.5s;
+}
+
 .main-h2-text {
 	margin-bottom: 10px;
 }

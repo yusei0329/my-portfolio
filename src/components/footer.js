@@ -4,7 +4,7 @@ import "../styles/footer.css"
 const Footer = () => {
   return (
     <footer>
-      <div>© Yusei Niwa Portfolio { (new Date()).getFullYear() }</div>
+      <div>© Yusei Niwa { (new Date()).getFullYear() }</div>
     </footer>
   )
 }

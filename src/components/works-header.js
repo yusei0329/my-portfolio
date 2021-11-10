@@ -19,13 +19,15 @@ const WorksHeader = () => {
 
   return (
     <header>
-      <div className="mian-heder">
-        <Link to="/">
-          <img className="arrow-icon" src={Arrow} alt="ArrowIcon" />
-        </Link>
-        <img className="icon2-img" src={Icon} alt="Icon" />
+      <div className="title-header">
+        <div className="mian-heder">
+          <Link to="/">
+            <img className="arrow-icon" src={Arrow} alt="ArrowIcon" />
+          </Link>
+          <img className="icon2-img" src={Icon} alt="Icon" />
+        </div>
+        <h2>{data.site.siteMetadata.author}</h2>
       </div>
-      <h2>{data.site.siteMetadata.author}</h2>
     </header>
   )
 }

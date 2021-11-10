@@ -8,15 +8,17 @@ export default function Post({ data }) {
   const link = data.markdownRemark.frontmatter.link;
   return (
     <WorksLayout>
-      <div className="post-header">
-        <h1>{data.markdownRemark.frontmatter.title}</h1>
+      <div className="main-post">
+        <div className="post-header">
+          <h1>{data.markdownRemark.frontmatter.title}</h1>
+        </div>
+        <Img className="post-image"
+          fluid={data.markdownRemark.frontmatter.topImage.childImageSharp.fluid}
+          alt="cover"
+        />
+        <div className="post-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+        <a href={link} target="_blank">{data.markdownRemark.frontmatter.link}</a>
       </div>
-      <Img className="post-image"
-        fluid={data.markdownRemark.frontmatter.topImage.childImageSharp.fluid}
-        alt="cover"
-      />
-      <div className="post-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-      <a href={link}　target="_blank">{data.markdownRemark.frontmatter.link}</a>
     </WorksLayout>
   )
 }

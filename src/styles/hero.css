@@ -1,5 +1,15 @@
+@keyframes titleAnimation {
+  0% {
+    transform: translateX(-25px);
+    opacity: 0;
+  }
+}
+
 .hero {
   margin: 100px 0px;
+}
+.hero h1 {
+  animation: titleAnimation 1.5s;
 }
 
 .hero-text {
