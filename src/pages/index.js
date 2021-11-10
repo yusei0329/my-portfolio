@@ -10,23 +10,20 @@ export default function Home({ data }) {
     <>
       <Layout>
         <Hero />
-        {data.allMarkdownRemark.nodes.map(node => (
-          <div key={node.id}>
-            <div className="post-link">
-              <Link to={node.fields.slug}>
-                <Img className="post-link-image"
-                  fluid={node.frontmatter.topImage.childImageSharp.fluid}
-                  alt="cover"
-                />
-              </Link>
+        <div className = "contents">
+          {data.allMarkdownRemark.nodes.map(node => (
+            <div key={node.id}>
+              <div className="post-link">
+                <Link to={node.fields.slug}>
+                  <Img className="post-link-image"
+                    fluid={node.frontmatter.topImage.childImageSharp.fluid}
+                    alt="cover"
+                  />
+                </Link>
+              </div>
             </div>
-            {/* <div className="post-link-text">
-              <Link to={node.fields.slug}>
-                <h2>{node.frontmatter.title}</h2>
-              </Link>
-            </div> */}
-          </div>
-        ))}
+          ))}
+        </div>
       </Layout>
     </>
   )
