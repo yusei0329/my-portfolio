@@ -30,7 +30,7 @@ query($slug: String!) {
       link
       topImage {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 800) {
             ...GatsbyImageSharpFluid
           }
         }
