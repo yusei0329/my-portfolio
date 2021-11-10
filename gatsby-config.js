@@ -13,7 +13,15 @@ module.exports = {
 },
   /* Your site config here */
   plugins: [
-      `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaultQuality: 100,
+        quality: 100,
+        pngQuality: 100,
+        jpegQuality: 100,
+      },
+    },
       `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
