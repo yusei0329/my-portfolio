@@ -17,14 +17,10 @@ export default function Home({ data }) {
                 <Img className="post-link-image"
                   fluid={node.frontmatter.topImage.childImageSharp.fluid}
                   alt="cover"
+                  quality = "100"
                 />
               </Link>
             </div>
-            {/* <div className="post-link-text">
-              <Link to={node.fields.slug}>
-                <h2>{node.frontmatter.title}</h2>
-              </Link>
-            </div> */}
           </div>
         ))}
       </Layout>

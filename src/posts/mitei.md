@@ -1,7 +1,7 @@
 ---
 title: "のーくらいむ"
 date: "2020-08-18"
-topImage: "../images/mitei.jpg"
+topImage: "../images/mitei.png"
 link: "https://youtu.be/N0VEpKFKMZM"
 ---
 
