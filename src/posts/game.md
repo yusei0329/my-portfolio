@@ -3,6 +3,7 @@ title: "ゲームの世界を撮りたい"
 date: "2020-08-18"
 topImage: "../images/depth.png"
 link: "https://youtu.be/_Z4--LQG57A"
+skills: "Unity"
 ---
 
 ### ゲームの世界をカメラで撮影

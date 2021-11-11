@@ -2,7 +2,8 @@
 title: "Hackathon Supporter"
 date: "2020-08-18"
 topImage: "../images/hacku.png"
-link: "https://www.youtube.com/"
+link: ""
+skills: "React.js, Go, Gin, Gorm"
 ---
 
 ### アイデア出しサポートアプリケーション

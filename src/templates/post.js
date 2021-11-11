@@ -12,12 +12,17 @@ export default function Post({ data }) {
         <div className="post-header">
           <h1>{data.markdownRemark.frontmatter.title}</h1>
         </div>
-        <Img className="post-image"
-          fluid={data.markdownRemark.frontmatter.topImage.childImageSharp.fluid}
-          alt="cover"
-        />
-        <div className="post-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-        <a href={link} target="_blank">{data.markdownRemark.frontmatter.link}</a>
+        <div className="post-content">
+          <Img className="post-image"
+            fluid={data.markdownRemark.frontmatter.topImage.childImageSharp.fluid}
+            alt="cover"
+          />
+          <div className="post-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+          <div className="post-document">
+            <p>使用技術<br />{data.markdownRemark.frontmatter.skills}</p>
+            <a href={link} target="_blank">{data.markdownRemark.frontmatter.link}</a>
+          </div>
+        </div>
       </div>
     </WorksLayout>
   )
@@ -30,6 +35,7 @@ query($slug: String!) {
     frontmatter {
       title
       link
+      skills
       topImage {
         childImageSharp {
           fluid(maxWidth: 800) {

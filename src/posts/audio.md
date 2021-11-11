@@ -3,6 +3,7 @@ title: "firework"
 date: "2020-08-18"
 topImage: "../images/Audio.png"
 link: "https://youtu.be/3dZokBkbzXk"
+skills: "openframeworks"
 ---
 
 ### Audio spectrum
