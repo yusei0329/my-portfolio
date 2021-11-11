@@ -10,3 +10,5 @@ skills: "Flutter, Ruby on Rails"
 
 Yahoo HackU 2021 vol2で作成した.<br>
 犯罪や痴漢被害などをなくすなくすアプリケーション.
+
+`youtube:https://www.youtube.com/embed/N0VEpKFKMZM`

@@ -20,7 +20,6 @@ export default function Post({ data }) {
           <div className="post-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
           <div className="post-document">
             <p>使用技術<br />{data.markdownRemark.frontmatter.skills}</p>
-            <a href={link} target="_blank">{data.markdownRemark.frontmatter.link}</a>
           </div>
         </div>
       </div>

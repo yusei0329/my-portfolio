@@ -12,4 +12,6 @@ skills: "Unity"
 ゲームの中でキャラクターを撮影できる.<br>
 f値などもユーザが設定できる.
 
+`youtube:https://www.youtube.com/embed/_Z4--LQG57A`
+
 <!-- http://localhost:8000/posts/game/ -->

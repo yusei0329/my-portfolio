@@ -10,3 +10,5 @@ skills: "openframeworks"
 
 音とオブジェクトの動きをリンクさせることで、音を可視化する.<br>
 この作品は花火をイメージした.
+
+`youtube:https://www.youtube.com/embed/3dZokBkbzXk`
