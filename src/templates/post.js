@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 import "../styles/post.css"
 
 export default function Post({ data }) {
-  const link = data.markdownRemark.frontmatter.link;
+  // const link = data.markdownRemark.frontmatter.link;
   return (
     <WorksLayout>
       <div className="main-post">
@@ -18,9 +18,9 @@ export default function Post({ data }) {
             alt="cover"
           />
           <div className="post-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-          <div className="post-document">
+          {/* <div className="post-document">
             <p>使用技術<br />{data.markdownRemark.frontmatter.skills}</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </WorksLayout>

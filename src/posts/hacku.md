@@ -9,4 +9,6 @@ skills: "React.js, Go, Gin, Gorm"
 ### アイデア出しサポートアプリケーション
 
 Yahoo HackU 2020 vol4で作成した.<br>
-ハッカソンのアイデア出しをサポートするアプリケーション.
+ハッカソンのアイデア出しをサポートするアプリケーション.<br>
+<br>
+使用技術<br>React.js, Go, Gin, Gorm

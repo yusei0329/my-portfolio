@@ -10,7 +10,9 @@ skills: "Unity"
 
 大学の授業で作成した.<br>
 ゲームの中でキャラクターを撮影できる.<br>
-f値などもユーザが設定できる.
+f値などもユーザが設定できる.<br>
+<br>
+使用技術<br>Unity
 
 `youtube:https://www.youtube.com/embed/_Z4--LQG57A`
 

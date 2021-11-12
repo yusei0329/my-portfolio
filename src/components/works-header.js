@@ -26,7 +26,7 @@ const WorksHeader = () => {
           </Link>
           <img className="icon2-img" src={Icon} alt="Icon" />
         </div>
-        <h2>{data.site.siteMetadata.author}</h2>
+        <h2 className = "sub-title">{data.site.siteMetadata.author}</h2>
       </div>
     </header>
   )

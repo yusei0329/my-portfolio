@@ -1,7 +1,7 @@
 exports.onRouteUpdate = ({ location }) => {
   if (location.pathname === "" || location.pathname === "/") {
     const targetElement = document.querySelectorAll(".post-link");
-    console.log(targetElement);
+    //console.log(targetElement);
     document.addEventListener("scroll", function() {
       //console.log(targetElement);
       for(let i = 0; i < targetElement.length; i++){

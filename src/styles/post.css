@@ -1,14 +1,39 @@
-
-@keyframes subtitleAnimation {
+@keyframes subTitleAnimation {
   0% {
-    transform: translateY(-25px);
     opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
-.main-post{ 
-  animation-name: subtitleAnimation;
-  animation-duration: 1s;
+.post-header {
+  animation-name: subTitleAnimation;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+@keyframes contentAnimation {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.post-content{ 
+  animation-name: contentAnimation;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
 }
 
 
