@@ -79,6 +79,10 @@
   height: auto;
 }
 
+.post-body h3 {
+  padding-bottom: 20px;
+}
+
 .post-body p {
   padding-bottom: 20px;
 }

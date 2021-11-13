@@ -6,7 +6,7 @@ link: "https://youtu.be/N0VEpKFKMZM"
 skills: "Flutter, Ruby on Rails"
 ---
 
-### のーくらいむ 安全防犯アプリケーション
+### 安全防犯アプリケーション
 
 Yahoo HackU 2021 vol2で作成した.<br>
 犯罪や痴漢被害などをなくすなくすアプリケーション.<br>

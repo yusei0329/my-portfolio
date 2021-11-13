@@ -13,6 +13,11 @@
 		text-align: left;
 	
 	}
+
+	.sub-title{
+		font-size: 7vw;
+		animation: headerTitleAnimation .5s;
+	}
 }
 
 
@@ -30,6 +35,10 @@
 		margin-left: 5%;
 		text-align: left;
 	}
+
+	.sub-title{
+		animation: headerTitleAnimation .5s;
+	}
 }
 
 @keyframes headerTitleAnimation {
@@ -37,11 +46,6 @@
     transform: translateY(-20px);
     opacity: 0;
   }
-}
-
-
-.sub-title{
-	animation: headerTitleAnimation .5s;
 }
 
 @keyframes headerIconAnimation {
