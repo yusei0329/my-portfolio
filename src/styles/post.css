@@ -99,3 +99,6 @@
   color: black;
 }
 
+.post-link-text a:hover{
+  color: red;
+}

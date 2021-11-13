@@ -4,6 +4,7 @@ import About from "../components/about.js"
 import Hero from "../components/hero"
 import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
+import "../styles/reset.css"
 
 export default function Home({ data }) {
   return (

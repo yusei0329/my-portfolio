@@ -3,7 +3,7 @@ import PagesLayout from "../components/pages-layout"
 import Skills from "../components/skills"
 import "../styles/about-page.css"
 import { AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
-
+import "../styles/reset.css"
 
 class AboutPage extends React.Component {
   constructor(props) {
