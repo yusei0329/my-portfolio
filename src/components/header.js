@@ -1,5 +1,5 @@
 import React from 'react'
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql , Link} from "gatsby"
 import Icon from "../images/my-icon.jpeg"
 import "../styles/header.css"
 import { AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
@@ -41,10 +41,10 @@ const Header = () => {
         </p>
         <div className="contact">
           <h3 className="about-me-text">
-            <a href="/aboutPage">
+            <Link to= "/aboutPage">
               <FaShare size="1.5rem"/>
               About Me
-              </a>
+            </Link>
           </h3>
           <a className="mail-text" href={mailLink}>
             <AiOutlineMail size="2rem" />

@@ -90,3 +90,8 @@
 .post-link-text a:hover{
   color: red;
 }
+
+.home-link-text {
+  text-decoration: none;
+  color: black;
+}

@@ -1,8 +1,9 @@
 import React from "react"
 import PagesLayout from "../components/pages-layout"
 import Skills from "../components/skills"
+import { Link } from "gatsby"
 import "../styles/about-page.css"
-import { AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineMail, AiOutlineRollback } from "react-icons/ai";
 import "../styles/reset.css"
 
 class AboutPage extends React.Component {
@@ -61,6 +62,9 @@ class AboutPage extends React.Component {
               <h1 >Skills</h1>
             </div>
             <Skills />
+            <Link className="home-link-text" to="/">
+              <AiOutlineRollback size="3rem" />
+            </Link>
           </div>
         </PagesLayout>
       </>

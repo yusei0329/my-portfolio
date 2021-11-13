@@ -9,16 +9,11 @@
     sans-serif;
 }
 
-
 .continer {
   max-width: 85%;
   margin: auto;
   text-align: center;
   /* border: solid 1px black; */
-}
-
-.img{
-  border-radius: 10px;
 }
 
 .post-link {

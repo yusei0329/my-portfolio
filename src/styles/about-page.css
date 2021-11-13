@@ -36,3 +36,8 @@
   animation: aboutAnimation 1.0s .5s;
   animation-fill-mode: forwards;
 }
+
+.home-link-text {
+  text-decoration:none;
+  color: black;
+}

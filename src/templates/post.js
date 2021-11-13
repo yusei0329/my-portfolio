@@ -1,7 +1,8 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import PagesLayout from "../components/pages-layout"
 import Img from "gatsby-image"
+import { AiOutlineRollback } from "react-icons/ai"
 import "../styles/post.css"
 
 export default function Post({ data }) {
@@ -19,9 +20,12 @@ export default function Post({ data }) {
             <div className="post-link-text">
               <a href={link} target="_blank" rel="nofollow">
                 {link}
-                </a>
+              </a>
             </div>
           </div>
+          <Link className="home-link-text" to="/">
+            <AiOutlineRollback size="3rem" />
+          </Link>
         </div>
       </div>
     </PagesLayout>
