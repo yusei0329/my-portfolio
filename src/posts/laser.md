@@ -2,7 +2,7 @@
 title: "LaserPointer"
 date: "2021-8-12"
 topImage: "../images/LaserPointer.png"
-link: "https://youtu.be/bUlnneUcNU8"
+link: ""
 skills: "openFrameworks, OpenCV"
 ---
 

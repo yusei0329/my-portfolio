@@ -21,8 +21,12 @@ class AboutPage extends React.Component {
                 <td>20 ( 2001.3.29 )</td>
               </tr>
               <tr>
+                <th>出身</th>
+                <td>岐阜 /  Gifu</td>
+              </tr>
+              <tr>
                 <th>大学</th>
-                <td>愛知工業大学</td>
+                <td>愛知工業大学 / AIT</td>
               </tr>
               <tr>
                 <th>学部</th>

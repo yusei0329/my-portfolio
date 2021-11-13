@@ -2,7 +2,7 @@
 title: "Fish Animation"
 date: "2020-07-22"
 topImage: "../images/fish.png"
-link: "https://youtu.be/p4yLZq8aJi4"
+link: ""
 skills: "MAYA"
 ---
 

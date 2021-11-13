@@ -2,7 +2,7 @@
 title: "のーくらいむ"
 date: "2020-08-18"
 topImage: "../images/mitei.png"
-link: "https://youtu.be/N0VEpKFKMZM"
+link: "https://github.com/teamMitei"
 skills: "Flutter, Ruby on Rails"
 ---
 

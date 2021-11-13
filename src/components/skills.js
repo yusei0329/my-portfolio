@@ -9,7 +9,7 @@ const Skills = () => {
     { name: 'Gatsby.js', num: 60 },
     { name: 'C,C++', num: 60 },
     { name: 'flutter', num: 40 },
-    { name: 'OpenCV', num: 35 },
+    { name: 'OpenCV', num: 40 },
     { name: 'Unity', num: 35 },
     { name: 'openFrameworks', num: 35 },
     { name: 'After Effects', num: 35 },

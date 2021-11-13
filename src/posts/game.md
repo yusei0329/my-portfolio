@@ -2,7 +2,7 @@
 title: "ゲームの世界を撮りたい"
 date: "2020-08-18"
 topImage: "../images/depth.png"
-link: "https://youtu.be/_Z4--LQG57A"
+link: "https://aitech.ac.jp/~videsign/GP2021/56_x19068/"
 skills: "Unity"
 ---
 

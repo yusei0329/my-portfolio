@@ -5,22 +5,23 @@ import Img from "gatsby-image"
 import "../styles/post.css"
 
 export default function Post({ data }) {
-  // const link = data.markdownRemark.frontmatter.link;
+  const link = data.markdownRemark.frontmatter.link;
   return (
     <PagesLayout title={data.markdownRemark.frontmatter.title}>
       <div className="main-post">
-        {/* <div className="post-header">
-          <h1>{data.markdownRemark.frontmatter.title}</h1>
-        </div> */}
         <div className="post-content">
           <Img className="post-image"
             fluid={data.markdownRemark.frontmatter.topImage.childImageSharp.fluid}
             alt="cover"
           />
-          <div className="post-body" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-          {/* <div className="post-document">
-            <p>使用技術<br />{data.markdownRemark.frontmatter.skills}</p>
-          </div> */}
+          <div className="post-body">
+            <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+            <div className="post-link-text">
+              <a href={link} target="_blank" rel="nofollow">
+                {link}
+                </a>
+            </div>
+          </div>
         </div>
       </div>
     </PagesLayout>

@@ -2,7 +2,7 @@
 title: "portfolio"
 date: "2021-11-10"
 topImage: "../images/portfolio.png"
-link: ""
+link: "https://github.com/yusei0329/my-portfolio"
 skills: "Gatsby.js, GraphiQL"
 ---
 

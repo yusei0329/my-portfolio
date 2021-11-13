@@ -2,7 +2,7 @@
 title: "Hackathon Supporter"
 date: "2020-08-18"
 topImage: "../images/hacku.png"
-link: ""
+link: "https://github.com/HackU-2020-vol4"
 skills: "React.js, Go, Gin, Gorm"
 ---
 

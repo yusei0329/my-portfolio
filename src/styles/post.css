@@ -90,3 +90,12 @@
 .post-document p {
   margin: 20px;
 }
+
+.post-link-text {
+  padding: 30px;
+}
+
+.post-link-text a{
+  color: black;
+}
+
