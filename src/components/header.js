@@ -45,7 +45,7 @@ const Header = () => {
             <AiOutlineMail size="2rem" />
             {data.site.siteMetadata.user.email}
           </a>
-          <a className="github-text" href={githublink} target="_blank">
+          <a className="github-text" href={githublink} target="_blank" rel="nofollow">
             <AiOutlineGithub size="2rem" />
             GitHub
           </a>

@@ -34,6 +34,13 @@ module.exports = {
       options: { 
         plugins: [
           {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_self",  // リンクを開くときの target
+              rel: "noopener",  // rel(relation) 指定
+            }
+          },
+          {
             resolve: "gatsby-remark-embed-youtube",
             options: {
               width: 800,

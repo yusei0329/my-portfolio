@@ -1,3 +1,15 @@
+@media screen and (max-width: 575px) { 
+
+  .card p{
+    font-size: 3.5vw;
+  }
+}
+@media screen and (min-width: 576px) { 
+  .card {
+    max-width: 800px;
+  }
+}
+
 .card {
   list-style: none;
   display: flex;

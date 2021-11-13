@@ -4,13 +4,18 @@ import "../styles/skills.css"
 
 const Skills = () => {
   const data = [
-    { id: 1, name: 'javascript', num: 70},
-    { id: 2, name: 'React.js', num: 60},
-    { id: 3, name: 'GatsbyJS', num: 60 },
-    { id: 4, name: 'C,C++', num: 60 },
-    { id: 5, name: 'OpenCV', num: 30 },
-    { id: 6, name: 'openFrameworks', num: 30 },
-    { id: 7, name: 'Unity', num: 50 }
+    { name: 'javascript', num: 70},
+    { name: 'React.js', num: 60},
+    { name: 'GatsbyJS', num: 60 },
+    { name: 'C,C++', num: 60 },
+    { name: 'flutter', num: 40 },
+    { name: 'OpenCV', num: 35 },
+    { name: 'Unity', num: 35 },
+    { name: 'openFrameworks', num: 35 },
+    { name: 'After Effects', num: 35 },
+    { name: 'Illustrator', num: 30 },
+    { name: 'Photoshop', num: 20 },
+    
   ];
 
   return (

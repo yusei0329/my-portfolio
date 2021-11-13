@@ -1,3 +1,10 @@
+@media screen and (max-width: 575px) { 
+  .about-page h2 {
+    font-size: 6vw;
+  }
+}
+
+
 .about-page {
   text-align: center;
 }
@@ -7,7 +14,7 @@
 }
 
 .about-table {
-  margin: 5px auto;
+  margin: 10px auto;
   text-align: left;
 }
 
@@ -27,5 +34,6 @@
 .about-page a :hover{
   color: red;
 }
+
 
 

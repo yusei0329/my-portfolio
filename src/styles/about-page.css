@@ -1,0 +1,17 @@
+@media screen and (max-width: 575px) { 
+  .about-h1 {
+    font-size: 5vw;
+  }
+}
+
+.about-table a {
+  color: black;
+}
+
+.about-table a:hover{
+  color: red;
+}
+
+.about-h1{
+  padding: 25px;
+}
