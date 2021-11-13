@@ -22,7 +22,7 @@ const WorksHeader = () => {
       <div className="title-header">
         <div className="mian-heder">
           <Link to="/">
-            <img className="arrow-icon" src={Arrow} alt="ArrowIcon" />
+            <img className="arrow-return-icon" src={Arrow} alt="ArrowIcon" />
           </Link>
           <img className="icon2-img" src={Icon} alt="Icon" />
         </div>
