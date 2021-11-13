@@ -4,6 +4,7 @@ import Icon from "../images/my-icon.jpeg"
 import "../styles/header.css"
 import { AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
 import { RiUserLocationFill } from "react-icons/ri"
+import { FaShare } from "react-icons/fa"
 import { BsArrowDown } from "react-icons/bs"
 
 const Header = () => {
@@ -39,6 +40,12 @@ const Header = () => {
           {data.site.siteMetadata.from}
         </p>
         <div className="contact">
+          <h3 className="about-me-text">
+            <a href="/aboutPage">
+              <FaShare size="1.5rem"/>
+              About Me
+              </a>
+          </h3>
           <a className="mail-text" href={mailLink}>
             <AiOutlineMail size="2rem" />
             {data.site.siteMetadata.user.email}
@@ -48,9 +55,9 @@ const Header = () => {
             GitHub
           </a>
         </div>
-        <div className = "arrow-icon">
+        <div className="arrow-icon">
           <a>
-            <BsArrowDown size="2rem"/>
+            <BsArrowDown size="2rem" />
           </a>
         </div>
       </div>

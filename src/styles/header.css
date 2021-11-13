@@ -118,6 +118,20 @@
 	object-position:0px 0px;
 }
 
+.about-me-text{
+	padding-bottom: 15px;
+}
+
+.about-me-text a{
+	color: black;
+	text-decoration: none;
+}
+
+.about-me-text a:hover{
+	color: red;
+}
+
+
 .mail-text {
 	margin-right: 15px;
 	text-decoration: none;
