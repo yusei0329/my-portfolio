@@ -5,8 +5,6 @@ import "../styles/header.css"
 import { AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
 import { RiUserLocationFill } from "react-icons/ri"
 import { BsArrowDown } from "react-icons/bs"
-import { MdNavigateNext } from "react-icons/md"
-
 
 const Header = () => {
   const data = useStaticQuery(

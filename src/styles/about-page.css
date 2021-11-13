@@ -12,6 +12,27 @@
   color: red;
 }
 
+
+@keyframes aboutAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 .about-h1{
   padding: 25px;
+  opacity: 0;
+  animation: aboutAnimation 1.0s .3s;
+  animation-fill-mode: forwards;
+}
+
+
+.about-main-page {
+  opacity: 0;
+  animation: aboutAnimation 1.0s .5s;
+  animation-fill-mode: forwards;
 }
