@@ -30,7 +30,19 @@
   }
 }
 
-.post-content{ 
+.post-image {
+  animation-name: subTitleAnimation;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+}
+
+/* .post-content{ 
+  animation-name: contentAnimation;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+} */
+
+.post-body {
   animation-name: contentAnimation;
   animation-duration: 1.0s;
   animation-timing-function: ease-in-out;
@@ -41,11 +53,11 @@
 .ytp-cued-thumbnail-overlay-image {
   text-align: center;
 }
-
+/* 
 .post-header {
   margin: 80px auto;
   max-width: 700px;
-}
+} */
 
 .post-date {
   color: #434343;

@@ -1,22 +1,10 @@
 import React from 'react'
-import { useStaticQuery, Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import Icon from "../images/my-icon.jpeg"
 import Arrow from "../images/arr_hoso.png"
-import "../styles/works-header.css"
+import "../styles/pages-header.css"
 
-const WorksHeader = () => {
-  const data = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            author
-          }
-        }
-      }
-    `
-  )
-
+const PagesHeader = (props) => {
   return (
     <header>
       <div className="title-header">
@@ -26,10 +14,10 @@ const WorksHeader = () => {
           </Link>
           <img className="icon2-img" src={Icon} alt="Icon" />
         </div>
-        <h2 className = "sub-title">{data.site.siteMetadata.author}</h2>
+        <h2 className = "sub-title">{props.title}</h2>
       </div>
     </header>
   )
 }
 
-export default WorksHeader
+export default PagesHeader

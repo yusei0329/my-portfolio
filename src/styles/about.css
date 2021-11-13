@@ -1,0 +1,31 @@
+.about-page {
+  text-align: center;
+}
+
+.about-page h2 {
+  padding: 20px;
+}
+
+.about-table {
+  margin: 5px auto;
+  text-align: left;
+}
+
+.about-table th{
+  width: 50px;
+}
+
+
+.about-table td {
+  width: auto;
+}
+
+.about-page a {
+  color: black;
+}
+
+.about-page a :hover{
+  color: red;
+}
+
+

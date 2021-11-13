@@ -1,17 +1,17 @@
 import React from "react"
 import { graphql } from "gatsby"
-import WorksLayout from "../components/works-layout"
+import PagesLayout from "../components/pages-layout"
 import Img from "gatsby-image"
 import "../styles/post.css"
 
 export default function Post({ data }) {
   // const link = data.markdownRemark.frontmatter.link;
   return (
-    <WorksLayout>
+    <PagesLayout title={data.markdownRemark.frontmatter.title}>
       <div className="main-post">
-        <div className="post-header">
+        {/* <div className="post-header">
           <h1>{data.markdownRemark.frontmatter.title}</h1>
-        </div>
+        </div> */}
         <div className="post-content">
           <Img className="post-image"
             fluid={data.markdownRemark.frontmatter.topImage.childImageSharp.fluid}
@@ -23,7 +23,7 @@ export default function Post({ data }) {
           </div> */}
         </div>
       </div>
-    </WorksLayout>
+    </PagesLayout>
   )
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/layout"
+import About from "../components/about.js"
 import Hero from "../components/hero"
 import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
@@ -22,6 +23,7 @@ export default function Home({ data }) {
               </div>
             </div>
           ))}
+          <About />
         </div>
       </Layout>
     </>
