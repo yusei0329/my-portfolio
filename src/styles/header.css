@@ -2,10 +2,10 @@
 	header{
 		position: relative;
 		width: 100%;
-		height: 28em;
+		height: 40em;
 		margin-top: 0;
 		margin-bottom: 100px;
-		background-color: seashell;
+		background-color:whitesmoke;
 		text-align: center;
 	}
 }
@@ -15,34 +15,104 @@
 	header{
 		position: relative;
 		width: 100%;
-		height: 28em;
+		height: 40em;
 		margin-top: 0;
 		margin-bottom: 100px;
-		background-color: seashell;
+		background-color: whitesmoke;
 		text-align: center;
 	}
 }
 
+
 @keyframes titleAnimation {
   0% {
-    transform: translateX(-25px);
+    transform: translateY(25px);
     opacity: 0;
   }
 }
 
-header .title-header{
-	animation: titleAnimation 1.5s;
+@keyframes contactAnimation {
+	0% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
+
+@keyframes iconAnimation {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes locationAnimation {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		transform: translateY(25px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes arrowMove{
+	0%{
+		opacity: 0;
+		bottom: 1%;
+	}
+	50%{
+		opacity: 1;
+		bottom: 2%;
+	}
+	100%{
+		opacity: 0;
+		bottom: 1%;
+	}
+}
+
+@keyframes hideAnimation {
+	0% {
+		opacity: 0;
+	}
+}
+
 
 .main-h2-text {
-	margin-bottom: 10px;
+	animation: titleAnimation .5s;
+	margin-bottom: 20px;
 }
 
+.main-h3-text {
+	animation: locationAnimation .65s;
+	margin-bottom: 50px;
+}
+
+.contact {
+	animation: contactAnimation .75s;
+	padding-bottom: 60px;
+}
 
 .icon-img {
-	margin-top: 30px;
-  width:200px;
-	height:200px;
+	animation: iconAnimation .5s;
+}
+
+.icon-img {
+	margin-top: 50px;
+  width:150px;
+	height:150px;
 	object-fit:cover;
 	border-radius:50%;
 	object-position:0px 0px;
@@ -68,4 +138,22 @@ header .title-header{
 
 .github-text:hover {
 	color:red;
+}
+
+.arrow-icon {
+	opacity: 0;
+	pointer-events: none;
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+	animation: arrowMove 1.25s .65s ease-in-out infinite;
+	animation-fill-mode: forwards;
+	padding-bottom: 50px;
+}
+
+.arrow-icon.hide {
+	opacity: 0;
+	animation: none;
 }

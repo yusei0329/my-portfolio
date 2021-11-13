@@ -1,16 +1,16 @@
 import React from "react";
 import Layout from "../components/layout"
+import About from "../components/about.js"
 import Hero from "../components/hero"
 import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
-
 
 export default function Home({ data }) {
   return (
     <>
       <Layout>
         <Hero />
-        <div className = "contents">
+        <div className="contents">
           {data.allMarkdownRemark.nodes.map(node => (
             <div key={node.id}>
               <div className="post-link">
@@ -23,6 +23,7 @@ export default function Home({ data }) {
               </div>
             </div>
           ))}
+          <About />
         </div>
       </Layout>
     </>

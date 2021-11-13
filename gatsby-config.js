@@ -7,6 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: "YUSEI NIWA",
+    from: "Japan",
     author: "Works",
     user: { name: "Yusei Niwa", email: "nwys.28@gmail.com", github: "https://github.com/yusei0329"
   },
@@ -29,6 +30,25 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    "gatsby-transformer-remark",
+    {
+      resolve: "gatsby-transformer-remark",
+      options: { 
+        plugins: [
+          {
+            resolve: "gatsby-remark-embed-youtube",
+            options: {
+              width: 800,
+              height: 450,
+            },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+        ],
+      },
+    },
   ],
 }

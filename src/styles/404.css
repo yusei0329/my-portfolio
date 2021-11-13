@@ -1,0 +1,11 @@
+.error-page {
+  margin-top: 300px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.error-button {
+  margin: 25px;
+  width: 100px;
+  height: 50px;
+}

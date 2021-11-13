@@ -5,8 +5,13 @@
 		height: 20em;
 		margin-top: 0;
 		margin-bottom: 100px;
-		background-color: seashell;
+		background-color: whitesmoke;
 		text-align: center;
+	}
+	.mian-heder {
+		margin-left: 5%;
+		text-align: left;
+	
 	}
 }
 
@@ -18,37 +23,53 @@
 		height: 20em;
 		margin-top: 0;
 		margin-bottom: 100px;
-		background-color: seashell;
+		background-color: whitesmoke;
 		text-align: center;
+	}
+	.mian-heder {
+		margin-left: 5%;
+		text-align: left;
 	}
 }
 
-@keyframes titleAnimation {
+@keyframes headerTitleAnimation {
   0% {
-    transform: translateY(-25px);
+    transform: translateY(-20px);
     opacity: 0;
   }
 }
 
-header .title-header{
-	animation: titleAnimation 1.5s;
+
+.sub-title{
+	animation: headerTitleAnimation .5s;
 }
 
-
+@keyframes headerIconAnimation {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+}
 
 .mian-heder {
-	margin-left: 10px;
-	text-align: left;
-
+	animation: headerIconAnimation .5s;
 }
 
+
+/* .mian-heder {
+	margin-left: 5%;
+	text-align: left;
+
+} */
+
 h2 {
+	font-size: 2.5em;
 	padding-top: 50px;
 	text-align: center;
 }
 
-.arrow-icon {
-	margin-top: 20px;
+.arrow-return-icon {
+	margin-top: 25px;
 	padding-right: 5px;
 	width:50px;
 	height:50px;
@@ -56,7 +77,7 @@ h2 {
 
 
 
-.arrow-icon:hover {
+.arrow-return-icon:hover {
 	transform: translate(-5px, 0px);
 	transition: all .3s;
 }

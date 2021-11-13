@@ -1,16 +1,8 @@
-@keyframes subtitleAnimation {
+@keyframes subTitleAnimation {
   0% {
     opacity: 0;
   }
-}
-
-.post-header h1{ 
-  animation: subtitleAnimation 1.0s;
-  
-}
-
-@keyframes contentAnimation {
-  0% {
+  50% {
     opacity: 0;
   }
   100% {
@@ -18,14 +10,54 @@
   }
 }
 
-.post-content {
-  animation: contentAnimation 1.0s;
+.post-header {
+  animation-name: subTitleAnimation;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
 }
 
+
+
+@keyframes contentAnimation {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.post-image {
+  animation-name: subTitleAnimation;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+}
+
+/* .post-content{ 
+  animation-name: contentAnimation;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+} */
+
+.post-body {
+  animation-name: contentAnimation;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+.ytp-cued-thumbnail-overlay-image {
+  text-align: center;
+}
+/* 
 .post-header {
   margin: 80px auto;
   max-width: 700px;
-}
+} */
 
 .post-date {
   color: #434343;
@@ -43,12 +75,12 @@
 
 .post-body {
   margin: 80px auto;
-  max-width: 700px;
+  max-width: 800px;
+  height: auto;
 }
 
-.post-body img{
-  width: 90%;
-  height: auto;
+.post-body p {
+  padding-bottom: 20px;
 }
 
 .post-document p {
