@@ -27,17 +27,10 @@ exports.onRouteUpdate = ({ location }) => {
         arrowElement.classList.add("hide");
       }
     })
-
-    //ArrowAnimation
-    const scrollArrowAnimation = function () {
-      console.log("click");
-      const targetTextLeft = document.getElementById("hero").getBoundingClientRect().left;
-      const targetTextTop = document.getElementById("hero").getBoundingClientRect().top;
-      window.scrollTo({
-        left: targetTextLeft,
-        top: targetTextTop,
-        behavior: 'smooth'
-      });
-    }
   }
 };
+
+// exports.onInitialClientRender = () => {
+//   // console.log("表示されました");
+//   const openingElement = document.querySelector();
+// };

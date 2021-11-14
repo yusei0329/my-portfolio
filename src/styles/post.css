@@ -1,3 +1,15 @@
+@media screen and (max-width: 575px) {
+  .post-body h3 {
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .post-body h3 {
+    font-size: 2em;
+  }
+}
+
 @keyframes subTitleAnimation {
   0% {
     opacity: 0;
@@ -66,7 +78,6 @@
 }
 
 .post-body h3 {
-  font-size: 1.5em;
   padding-bottom: 30px;
 }
 
