@@ -4,15 +4,17 @@ import Footer from './footer'
 import "../styles/layout.css"
 
 
-const Layout = ( props ) => {
+const Layout = (props) => {
   return (
     <>
-      <Header/>
-      <div class="continer">
-      { props.children }
+      <div class="shutter">
+        <h1 className = "title-logo">YUSEI NIWA</h1>
       </div>
-        
-      <Footer/>
+      <Header />
+      <div class="continer">
+        {props.children}
+      </div>
+      <Footer />
     </>
   )
 }
