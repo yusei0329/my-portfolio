@@ -37,5 +37,6 @@
 }
 
 .card p {
+  letter-spacing: 0.02em;
   padding: 10px;
 }
