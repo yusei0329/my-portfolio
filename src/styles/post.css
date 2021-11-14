@@ -66,11 +66,14 @@
 }
 
 .post-body h3 {
-  padding-bottom: 20px;
+  font-size: 1.5em;
+  padding-bottom: 30px;
 }
 
 .post-body p {
-  padding-bottom: 20px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  max-width: 800px;
 }
 
 .post-document p {

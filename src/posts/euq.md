@@ -10,7 +10,9 @@ skills: "Clmtrackr.js, Unity, HTML / CSS"
 
 UEQareerのハッカソンで作成.<br>
 チームラボ賞，ヒーローズリーグ賞受賞.<br>
+コンセプトはリモートワークによる集中力の低下の解決.<br>
 集中力を瞬き検出を用いて計算を行いフィードバックをもらう事のできるアプリケーション.<br>
+瞬きの検出にはClmtrackr.jsを用いて目の位置座標を取得し, その座標を用いて判定.<br>
 <br>
 使用技術<br>Clmtrackr.js, Unity, HTML / CSS, Firebase Hosting
 

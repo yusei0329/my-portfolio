@@ -10,7 +10,10 @@ class AboutPage extends React.Component {
   constructor(props) {
     super(props);
   }
+
   render() {
+    const introduction = "大学ではプログラミングから映像製作, CGなど幅広い分野について学んだ. その中でプログラミングは一番力を入れた. 大学の友人やSNSで集まったメンバーでハッカソン等に出場し, 自身のスキルを磨いた. ハッカソンでは主にフロントエンドを担当することが多かった.";
+    const summary = "現在は大学教授である水野慎士先生のCGメディア研究室に所属. 研究室ではCG, 画像処理, インタラクション, デジタルコンテンツなどをキーワードに研究と制作を行っている.";
     return (
       <>
         <PagesLayout title={"About Me"}>
@@ -58,6 +61,10 @@ class AboutPage extends React.Component {
                 </td>
               </tr>
             </table>
+            <div className="introduction-text">
+              <p>{introduction}</p>
+              <p>{summary}</p>
+            </div>
             <div className="skills-h1">
               <h1 >Skills</h1>
             </div>

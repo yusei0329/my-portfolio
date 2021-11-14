@@ -9,6 +9,10 @@
     sans-serif;
 }
 
+p {
+  letter-spacing: 0.1em;
+}
+
 .continer {
   max-width: 85%;
   margin: auto;
