@@ -8,8 +8,8 @@ skills: "openFrameworks, OpenCV"
 
 ### LaserPointerで線を描く
 
-大学の研究室で開発中.<br>
-周囲が明るい環境でも動作するように改良が必要.<br>
+Laser Pointerを画像処理にて検出.<br>
+その座標データをofxInkSimの描画関数の座標に代入.<br>
 <br>
 使用技術, Addons<br>openFrameworks, OpenCV<br>ofxInkSim
 
