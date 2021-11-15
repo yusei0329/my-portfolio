@@ -34,15 +34,18 @@ exports.onInitialClientRender = () => {
   // console.log("表示されました");
   const openingElement = document.querySelector(".shutter");
   const openingTitleElement = document.querySelector(".title-logo");
+  const openingFirstElement = document.querySelector(".first-time");
   openingElement.classList.add("show");
   openingTitleElement.classList.add("show");
+  openingFirstElement.classList.add("show");
 
   ban_scroll();
   window.setTimeout(function () {
     openingElement.classList.remove("show");
     openingTitleElement.classList.remove("show");
+    openingFirstElement.classList.remove("show");
     go_scroll();
-  }, 2400);
+  }, 2000);
 
   // スクロール禁止
   function ban_scroll() {

@@ -8,13 +8,15 @@ const Layout = (props) => {
   return (
     <>
       <div class="shutter">
-        <h1 className = "title-logo">YUSEI NIWA</h1>
+        <h1 className="title-logo">YUSEI NIWA</h1>
       </div>
-      <Header />
-      <div class="continer">
-        {props.children}
+      <div className="first-time">
+        <Header />
+        <div class="continer">
+          {props.children}
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   )
 }
