@@ -104,23 +104,10 @@
   display: none;
 }
 
-@keyframes firstView {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .first-time {
   display: block;
-  opacity: 0;
-  animation: firstView .1s;
-  animation-fill-mode: forwards;
+  opacity: 1;
 }
-
-
 
 p {
   letter-spacing: 0.1em;
