@@ -2,11 +2,24 @@
   .post-body h3 {
     font-size: 4.5vw;
   }
+  .post-body p {
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 40px;
+    max-width: 800px;
+  }
 }
 
 @media screen and (min-width: 576px) {
   .post-body h3 {
     font-size: 2em;
+  }
+
+  .post-body p {
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 40px;
+    max-width: 800px;
   }
 }
 
@@ -81,12 +94,6 @@
 
 .post-body h3 {
   padding-bottom: 30px;
-}
-
-.post-body p {
-  margin: 0 auto;
-  padding-bottom: 40px;
-  max-width: 800px;
 }
 
 .post-document p {
