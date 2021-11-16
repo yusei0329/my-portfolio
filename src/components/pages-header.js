@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
-import Icon from "../images/my-icon.jpeg"
+import Icon from "../images/my-icon.png"
 import Arrow from "../images/arr_hoso.png"
 import "../styles/pages-header.css"
 

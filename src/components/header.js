@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql , Link} from "gatsby"
-import Icon from "../images/my-icon.jpeg"
+import Icon from "../images/my-icon.png"
 import "../styles/header.css"
 import { AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
 import { RiUserLocationFill } from "react-icons/ri"
