@@ -7,9 +7,9 @@ import { AiOutlineGithub, AiOutlineMail, AiOutlineRollback } from "react-icons/a
 import "../styles/reset.css"
 
 class AboutPage extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render() {
     const introduction = "大学ではプログラミングから映像製作, CGなど幅広い分野について学んだ. その中でプログラミングは一番力を入れた. 大学の友人やSNSで集まったメンバーでハッカソン等に出場し, 自身のスキルを磨いた. ハッカソンでは主にフロントエンドを担当することが多かった.";
@@ -39,21 +39,25 @@ class AboutPage extends React.Component {
               <tr>
                 <th>所属</th>
                 <td>
-                  <a href="http://aitech.ac.jp/cgmedia/" target="_blank" rel="nofollow">
+                  <a href="http://aitech.ac.jp/cgmedia/" target="_blank" rel="noreferrer">
                     CGメディア研究室
                   </a>
                 </td>
               </tr>
               <tr>
-                <th><AiOutlineGithub size="1.5rem" /></th>
+                <th>
+                  <p><AiOutlineGithub size="1.5rem" /></p>
+                </th>
                 <td>
-                  <a href="https://github.com/yusei0329" target="_blank" rel="nofollow">
+                  <a href="https://github.com/yusei0329" target="_blank" rel="noreferrer">
                     GitHub
                   </a>
                 </td>
               </tr>
               <tr>
-                <th><AiOutlineMail size="1.5rem" /></th>
+                <th>
+                  <p><AiOutlineMail size="1.5rem" /></p>
+                </th>
                 <td>
                   <a href="mailto:nwys.28@gmail.com">
                     nwys.28@gmail.com
@@ -70,7 +74,7 @@ class AboutPage extends React.Component {
             </div>
             <Skills />
             <Link className="home-link-text" to="/">
-              <AiOutlineRollback size="3rem" />
+              <p><AiOutlineRollback size="3rem" /></p>
             </Link>
           </div>
         </PagesLayout>

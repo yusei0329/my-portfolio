@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import About from "../components/about.js"
 import Hero from "../components/hero"
 import { graphql, Link } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 import "../styles/reset.css"
 
 export default function Home({ data }) {
@@ -16,8 +16,9 @@ export default function Home({ data }) {
             <div key={node.id}>
               <div className="post-link">
                 <Link to={node.fields.slug}>
-                  <Img className="post-link-image"
-                    fluid={node.frontmatter.topImage.childImageSharp.fluid}
+                  <GatsbyImage 
+                    image={node.frontmatter.topImage.childImageSharp.gatsbyImageData}
+                    className="post-link-image"
                     alt="cover"
                   />
                 </Link>
@@ -43,9 +44,9 @@ export const query = graphql`
           title
           topImage {
             childImageSharp {
-              fluid(maxWidth: 800) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(
+                width: 800, 
+                layout: CONSTRAINED),
             }
           }
         }

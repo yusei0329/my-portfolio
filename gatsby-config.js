@@ -8,18 +8,20 @@ module.exports = {
   siteMetadata: {
     title: "YUSEI NIWA",
     from: "Japan",
-    user: { name: "Yusei Niwa", email: "nwys.28@gmail.com", github: "https://github.com/yusei0329"
+    user: {
+      name: "Yusei Niwa", email: "nwys.28@gmail.com", github: "https://github.com/yusei0329"
+    },
   },
-},
   /* Your site config here */
   plugins: [
-      `gatsby-plugin-sharp`,
-      `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/images/`,
       },
     },
     {
@@ -31,7 +33,7 @@ module.exports = {
     },
     {
       resolve: "gatsby-transformer-remark",
-      options: { 
+      options: {
         plugins: [
           {
             resolve: "gatsby-remark-external-links",
