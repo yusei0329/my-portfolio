@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import PagesLayout from "../components/pages-layout"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 import { AiOutlineRollback } from "react-icons/ai"
 import "../styles/post.css"
 
@@ -11,14 +11,15 @@ export default function Post({ data }) {
     <PagesLayout title={data.markdownRemark.frontmatter.title}>
       <div className="main-post">
         <div className="post-content">
-          <Img className="post-image"
-            fluid={data.markdownRemark.frontmatter.topImage.childImageSharp.fluid}
+          <GatsbyImage
+            image={data.markdownRemark.frontmatter.topImage.childImageSharp.gatsbyImageData}
+            className="post-image"
             alt="cover"
           />
           <div className="post-body">
             <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
             <div className="post-link-text">
-              <a href={link} target="_blank" rel="nofollow">
+              <a href={link} target="_blank" rel = "noreferrer">
                 {link}
               </a>
             </div>
@@ -42,9 +43,7 @@ query($slug: String!) {
       skills
       topImage {
         childImageSharp {
-          fluid(maxWidth: 800) {
-            ...GatsbyImageSharpFluid
-          }
+          gatsbyImageData(width: 800, layout: CONSTRAINED)
         }
       }
     }

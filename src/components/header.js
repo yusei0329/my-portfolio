@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql , Link} from "gatsby"
-import Icon from "../images/my-icon.jpeg"
+import Icon from "../images/my-icon.png"
 import "../styles/header.css"
 import { AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
 import { RiUserLocationFill } from "react-icons/ri"
@@ -50,7 +50,7 @@ const Header = () => {
             <AiOutlineMail size="2rem" />
             {data.site.siteMetadata.user.email}
           </a>
-          <a className="github-text" href={githublink} target="_blank" rel="nofollow">
+          <a className="github-text" href={githublink} target="_blank" rel = "noreferrer">
             <AiOutlineGithub size="2rem" />
             GitHub
           </a>
