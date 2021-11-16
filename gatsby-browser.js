@@ -28,43 +28,43 @@ exports.onRouteUpdate = ({ location }) => {
       }
     })
 
-    //オープニングイベント
-    exports.onInitialClientRender = () => {
-      // console.log("表示されました");
-      const openingElement = document.querySelector(".shutter");
-      const openingTitleElement = document.querySelector(".title-logo");
-      const openingFirstElement = document.querySelector(".first-time");
-      openingElement.classList.add("show");
-      openingTitleElement.classList.add("show");
-      openingFirstElement.classList.add("show");
+    // //オープニングイベント
+    // exports.onInitialClientRender = () => {
+    //   // console.log("表示されました");
+    //   const openingElement = document.querySelector(".shutter");
+    //   const openingTitleElement = document.querySelector(".title-logo");
+    //   const openingFirstElement = document.querySelector(".first-time");
+    //   openingElement.classList.add("show");
+    //   openingTitleElement.classList.add("show");
+    //   openingFirstElement.classList.add("show");
 
-      ban_scroll();
-      window.setTimeout(function () {
-        openingElement.classList.remove("show");
-        openingTitleElement.classList.remove("show");
-        openingFirstElement.classList.remove("show");
-        go_scroll();
-      }, 2000);
+    //   ban_scroll();
+    //   window.setTimeout(function () {
+    //     openingElement.classList.remove("show");
+    //     openingTitleElement.classList.remove("show");
+    //     openingFirstElement.classList.remove("show");
+    //     go_scroll();
+    //   }, 2000);
 
-      // スクロール禁止
-      function ban_scroll() {
-        // PC用
-        document.addEventListener("wheel", notscroll, { passive: false });
-        // スマホ用
-        document.addEventListener("touchmove", notscroll, { passive: false });
-      }
-      // スクロール禁止解除
-      function go_scroll() {
-        // PC用
-        document.removeEventListener("wheel", notscroll, { passive: false });
-        // スマホ用
-        document.removeEventListener("touchmove", notscroll, { passive: false });
-      }
-      // スクロール禁止関数
-      function notscroll(e) {
-        e.preventDefault();
-      }
-    };
+    //   // スクロール禁止
+    //   function ban_scroll() {
+    //     // PC用
+    //     document.addEventListener("wheel", notscroll, { passive: false });
+    //     // スマホ用
+    //     document.addEventListener("touchmove", notscroll, { passive: false });
+    //   }
+    //   // スクロール禁止解除
+    //   function go_scroll() {
+    //     // PC用
+    //     document.removeEventListener("wheel", notscroll, { passive: false });
+    //     // スマホ用
+    //     document.removeEventListener("touchmove", notscroll, { passive: false });
+    //   }
+    //   // スクロール禁止関数
+    //   function notscroll(e) {
+    //     e.preventDefault();
+    //   }
+    // };
   }
 };
 
