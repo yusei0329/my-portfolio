@@ -46,7 +46,7 @@ class AboutPage extends React.Component {
               </tr>
               <tr>
                 <th>
-                  <p><AiOutlineGithub size="1.5rem" /></p>
+                  <p className="mail-icon-text"><AiOutlineGithub size="1.5rem" /></p>
                 </th>
                 <td>
                   <a href="https://github.com/yusei0329" target="_blank" rel="noreferrer">
@@ -56,7 +56,7 @@ class AboutPage extends React.Component {
               </tr>
               <tr>
                 <th>
-                  <p><AiOutlineMail size="1.5rem" /></p>
+                  <p className="mail-icon-text"><AiOutlineMail size="1.5rem" /></p>
                 </th>
                 <td>
                   <a href="mailto:nwys.28@gmail.com">

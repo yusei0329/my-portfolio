@@ -2,7 +2,26 @@
   .about-h1 {
     font-size: 5vw;
   }
+
+  .introduction-text {
+    margin: 0 auto;
+    max-width: 95%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+  }
 }
+
+@media screen and (min-width: 576px) {
+  .introduction-text {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+  }
+}
+
 
 .about-table a {
   color: black;
@@ -10,6 +29,19 @@
 
 .about-table a:hover{
   color: red;
+}
+
+.about-table th, td{
+  padding-bottom: 0.5em;
+}
+.about-table th {
+  padding-right: 5px;
+}
+
+
+.mail-icon-text{
+  max-width: 24px;
+  height: 24px;
 }
 
 
@@ -40,11 +72,4 @@
 .home-link-text {
   text-decoration:none;
   color: black;
-}
-
-.introduction-text {
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 25px;
-  text-align: left;
 }
