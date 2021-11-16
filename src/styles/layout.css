@@ -21,8 +21,8 @@
 }
 
 @-webkit-keyframes byeShutter {
-    70% {
-    opacity: 1;
+  70% {
+  opacity: 1;
   }
   100% {
     display: none;
@@ -146,6 +146,8 @@ p {
   object-fit: cover;
   display: block;
   transition: .25s ease-in;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .post-link-image:hover {
