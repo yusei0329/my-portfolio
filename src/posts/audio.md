@@ -13,6 +13,6 @@ skills: "openframeworks"
 ・パーティクルは各それぞれが質量と速度を所持. FFTした値を質量とサイズに代入.<br>
 ・中心の花にはFFTした値にリンクした反発力を付与することで, 周辺にあったパーティクルを弾く.<br>そうすることで, 花火を表現.<br>
 <br>
-・使用技術<br>openframeworks
+・使用技術<br>openFrameworks
 
 `youtube:https://www.youtube.com/embed/UqPmtBmrnQs`

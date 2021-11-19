@@ -13,6 +13,7 @@ class AboutPage extends React.Component {
 
   render() {
     const introduction = "大学ではプログラミングから映像製作, CGなど幅広い分野について学んだ. その中でプログラミングは一番力を入れた. 大学の友人やSNSで集まったメンバーでハッカソン等に出場し, 自身のスキルを磨いた. ハッカソンでは主にフロントエンドを担当することが多かった.";
+    const part = "また, 大学一年次にはkicks（中央出版  ロボット科学教育）でプログラミング教室の講師としてのアルバイトをしていた. 大学三年次には大学主催のAITカレッジと言うプログラミング教室に補助講師として三回ほど参加した. 子供たちにプログラミングの楽しさを伝えることができる良い経験であった.";
     const summary = "現在は大学教授である水野慎士先生のCGメディア研究室に所属. 研究室ではCG, 画像処理, インタラクション, デジタルコンテンツなどをキーワードに研究と制作を行っている.";
     return (
       <>
@@ -67,6 +68,7 @@ class AboutPage extends React.Component {
             </table>
             <div className="introduction-text">
               <p>{introduction}</p>
+              <p>{part}</p>
               <p>{summary}</p>
             </div>
             <div className="skills-h1">
