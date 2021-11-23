@@ -89,6 +89,7 @@ h2 {
 }
 
 .icon2-img {
+	z-index: 1;
 	margin-top: 25px;
 	margin-left: 5px;
   width:50px;
