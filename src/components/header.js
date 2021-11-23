@@ -1,11 +1,11 @@
 import React from 'react'
 import { useStaticQuery, graphql , Link} from "gatsby"
-import Icon from "../images/my-icon.png"
 import "../styles/header.css"
 import { AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
 import { RiUserLocationFill } from "react-icons/ri"
 import { FaShare } from "react-icons/fa"
 import { BsArrowDown } from "react-icons/bs"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => {
   const data = useStaticQuery(
@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <header>
       <div className="main-title-header">
-        <img className="icon-img" src={Icon} alt="Icon" />
+        <StaticImage className="icon-img" src="../images/my-icon.png" alt="Icon" />
         <h2 className="main-h2-text">
           {data.site.siteMetadata.title}
         </h2>

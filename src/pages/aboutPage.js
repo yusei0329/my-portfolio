@@ -76,7 +76,7 @@ class AboutPage extends React.Component {
             </div>
             <Skills />
             <Link className="home-link-text" to="/">
-              <p><AiOutlineRollback size="3rem" /></p>
+              <AiOutlineRollback size="3rem" />
             </Link>
           </div>
         </PagesLayout>

@@ -58,6 +58,7 @@
 
 .mian-heder {
 	animation: headerIconAnimation .5s;
+	user-select: none;
 }
 
 
@@ -88,11 +89,13 @@ h2 {
 }
 
 .icon2-img {
-	margin-top: 20px;
+	margin-top: 25px;
+	margin-left: 5px;
   width:50px;
 	height:50px;
 	object-fit:cover;
 	border-radius:50%;
 	object-position:0px 0px;
+	pointer-events: none;
 }
 

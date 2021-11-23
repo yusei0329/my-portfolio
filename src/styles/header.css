@@ -116,6 +116,8 @@
 	object-fit:cover;
 	border-radius:50%;
 	object-position:0px 0px;
+	user-select: none;
+	pointer-events: none;
 }
 
 .about-me-text{
