@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <header>
       <div className="main-title-header">
-        <StaticImage className="icon-img" src="../images/my-icon.png" alt="Icon" placeholder="blurred" />
+        <StaticImage className="icon-img" src="../images/my-icon.png" alt="Icon" placeholder="dominantColor" />
         <h2 className="main-h2-text">
           {data.site.siteMetadata.title}
         </h2>
