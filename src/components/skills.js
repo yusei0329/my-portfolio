@@ -29,9 +29,9 @@ const Skills = () => {
                   progress={value.num}    //進捗率       
                   size="100px"            //円グラフのサイズ
                   lineWidth="20px"        //円グラフの線幅
-                  progressColor="black"   //進捗の色 
+                  progressColor="#333"   //進捗の色 
                   bgColor="#f5f5f5"       //残部分の色
-                  textColor="black"       //進捗文字の色 
+                  textColor="#333"       //進捗文字の色 
                 />
               </p>
             </li>
