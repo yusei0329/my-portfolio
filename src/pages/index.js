@@ -4,19 +4,21 @@ import About from "../components/about.js"
 import Hero from "../components/hero"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image";
+import SEO from "../components/seo";
 import "../styles/reset.css"
 
 export default function Home({ data }) {
   return (
     <>
       <Layout>
+        <SEO title="Yusei Niwa" description="丹羽佑成のポートフォリオサイトです." />
         <Hero />
         <div className="contents">
           {data.allMarkdownRemark.nodes.map(node => (
             <div key={node.id}>
               <div className="post-link">
                 <Link to={node.fields.slug}>
-                  <GatsbyImage 
+                  <GatsbyImage
                     image={node.frontmatter.topImage.childImageSharp.gatsbyImageData}
                     className="post-link-image"
                     alt="cover"

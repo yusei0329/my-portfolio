@@ -3,7 +3,8 @@ import PagesLayout from "../components/pages-layout"
 import Skills from "../components/skills"
 import { Link } from "gatsby"
 import "../styles/about-page.css"
-import { AiOutlineGithub, AiOutlineMail, AiOutlineRollback } from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineMail, AiOutlineRollback } from "react-icons/ai"
+import SEO from "../components/seo"
 import "../styles/reset.css"
 
 class AboutPage extends React.Component {
@@ -18,6 +19,7 @@ class AboutPage extends React.Component {
     return (
       <>
         <PagesLayout title={"About Me"}>
+          <SEO title="About Me" description="丹羽佑成のポートフォリオサイトです." />
           <h1 className="about-h1">丹羽佑成 / Yusei Niwa</h1>
           <div className="about-main-page">
             <table className="about-table">

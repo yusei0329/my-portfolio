@@ -1,7 +1,8 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import PagesLayout from "../components/pages-layout"
-import { GatsbyImage } from "gatsby-plugin-image";
+import SEO from "../components/seo"
+import { GatsbyImage } from "gatsby-plugin-image"
 import { AiOutlineRollback } from "react-icons/ai"
 import "../styles/post.css"
 
@@ -9,6 +10,7 @@ export default function Post({ data }) {
   const link = data.markdownRemark.frontmatter.link;
   return (
     <PagesLayout title={data.markdownRemark.frontmatter.title}>
+      <SEO title={data.markdownRemark.frontmatter.title} description="丹羽佑成のポートフォリオサイトです." />
       <div className="main-post">
         <div className="post-content">
           <GatsbyImage
