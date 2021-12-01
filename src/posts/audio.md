@@ -1,5 +1,5 @@
 ---
-title: "firework"
+title: "Firework"
 date: "2020-08-18"
 topImage: "../images/Audio.png"
 link: ""
