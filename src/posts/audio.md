@@ -15,4 +15,4 @@ skills: "openframeworks"
 <br>
 ・使用技術<br>openFrameworks
 
-`youtube:https://www.youtube.com/embed/UqPmtBmrnQs`
+`youtube:https://www.youtube.com/embed/UqPmtBmrnQs?rel=0`

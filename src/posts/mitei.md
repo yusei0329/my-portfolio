@@ -16,4 +16,4 @@ skills: "Flutter, Ruby on Rails"
 <br>
 ・使用技術<br>Flutter, Ruby on Rails
 
-`youtube:https://www.youtube.com/embed/N0VEpKFKMZM`
+`youtube:https://www.youtube.com/embed/N0VEpKFKMZM?rel=0`

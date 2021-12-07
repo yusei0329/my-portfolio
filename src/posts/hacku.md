@@ -17,4 +17,4 @@ skills: "React.js, Go, Gin, Gorm"
 <br>
 ・使用技術<br>React.js, Go, Gin, Gorm
 
-`youtube:https://www.youtube.com/embed/pCAX4sj_HWs`
+`youtube:https://www.youtube.com/embed/pCAX4sj_HWs?rel=0`

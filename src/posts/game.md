@@ -14,7 +14,7 @@ skills: "Unity"
 <br>
 ・使用技術<br>Unity
 
-`youtube:https://www.youtube.com/embed/5ECWyqnyLo8`
+`youtube:https://www.youtube.com/embed/5ECWyqnyLo8?rel=0`
 
 <!-- http://localhost:8000/posts/game/ -->
 <!-- https://youtu.be/5ECWyqnyLo8 -->

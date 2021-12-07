@@ -16,4 +16,4 @@ skills: "Clmtrackr.js, Unity, HTML / CSS"
 <br>
 ・使用技術<br>Clmtrackr.js, Unity, HTML / CSS, Firebase Hosting
 
-`youtube:https://www.youtube.com/embed/0A2L1U1tCQ0`
+`youtube:https://www.youtube.com/embed/0A2L1U1tCQ0?rel=0`

@@ -13,4 +13,4 @@ skills: "MAYA"
 <br>
 ・使用技術<br>MAYA
 
-`youtube:https://www.youtube.com/embed/p4yLZq8aJi4`
+`youtube:https://www.youtube.com/embed/p4yLZq8aJi4?rel=0`

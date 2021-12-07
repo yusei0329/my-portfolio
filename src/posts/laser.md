@@ -13,5 +13,5 @@ skills: "openFrameworks, OpenCV"
 <br>
 ・使用技術, Addons<br>openFrameworks, OpenCV<br>ofxInkSim
 
-`youtube:https://www.youtube.com/embed/bUlnneUcNU8`
+`youtube:https://www.youtube.com/embed/bUlnneUcNU8?rel=0`
  

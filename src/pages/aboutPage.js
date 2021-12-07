@@ -7,10 +7,8 @@ import { AiOutlineGithub, AiOutlineMail, AiOutlineRollback } from "react-icons/a
 import SEO from "../components/seo"
 import "../styles/reset.css"
 
+
 class AboutPage extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
 
   render() {
     const introduction = "大学ではプログラミングから映像製作, CGなど幅広い分野について学んだ. その中でプログラミングは一番力を入れた. 大学の友人やSNSで集まったメンバーでハッカソン等に出場し, 自身のスキルを磨いた. ハッカソンでは主にフロントエンドを担当することが多かった.";
