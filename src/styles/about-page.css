@@ -19,6 +19,10 @@
 }
 
 @media screen and (max-width: 575px) {
+  .about-page-wrap {
+    overflow: hidden;
+  }
+
   .about-h1 {
     font-size: 5vw;
     padding: 25px;
@@ -107,10 +111,6 @@
     padding-bottom: 25px;
     text-align: left;
   }
-}
-
-.about-page-wrap {
-  overflow: hidden;
 }
 
 
