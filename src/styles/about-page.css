@@ -22,14 +22,14 @@
   .about-h1 {
     font-size: 5vw;
     padding: 25px;
-    padding-top: 30px;
+    padding-top: 50px;
   }
 
   .profile-icon-box {
     z-index: 1;
-    margin: 0 auto;
+    margin: 0 calc(50% - 50vw);
     padding-bottom: 10px;
-    width: 65%;
+    width: 100vw;
     height: auto;
     background-color: #dcdcdc;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 60px -10px, rgba(0, 0, 0, 0.22) 0px 18px 36px -18px;
@@ -107,6 +107,10 @@
     padding-bottom: 25px;
     text-align: left;
   }
+}
+
+.about-page-wrap {
+  overflow: hidden;
 }
 
 

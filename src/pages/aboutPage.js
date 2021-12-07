@@ -16,7 +16,7 @@ class AboutPage extends React.Component {
     const part = "また, 大学一年次にはkicks（中央出版  ロボット科学教育）でプログラミング教室の講師としてのアルバイトをしていた. 大学三年次には大学主催のAITカレッジと言うプログラミング教室に補助講師として三回ほど参加した. 子供たちにプログラミングの楽しさを伝えることができる良い経験であった.";
     const summary = "現在は大学教授である水野慎士先生のCGメディア研究室に所属. 研究室ではCG, 画像処理, インタラクション, デジタルコンテンツなどをキーワードに研究と制作を行っている.";
     return (
-      <>
+      <div className="about-page-wrap">
         <PagesLayout title={"About Me"}>
           <SEO title="About Me" description="丹羽佑成のポートフォリオサイトです." />
           <div className="profile-wrap">
@@ -90,7 +90,7 @@ class AboutPage extends React.Component {
             </Link>
           </div>
         </PagesLayout>
-      </>
+      </div>
     )
   }
 }
