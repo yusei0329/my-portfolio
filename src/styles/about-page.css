@@ -1,6 +1,24 @@
-@media screen and (max-width: 575px) { 
+@media screen and (max-width: 575px) {
   .about-h1 {
     font-size: 5vw;
+  }
+
+  .profile-icon-box {
+    z-index: 1;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    background-color:whitesmoke;
+    border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+  }
+
+  .profile-icon-img {
+    z-index: 2;
+    width: 90%;
+    height: auto;
+    border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+    user-select: none;
+    pointer-events: none;
   }
 
   .introduction-text {
@@ -13,6 +31,39 @@
 }
 
 @media screen and (min-width: 576px) {
+
+  .profile-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .profile-icon-box {
+    z-index: 1;
+    display: block;
+    width: 48%;
+    height: auto;
+    background-color:whitesmoke;
+    border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+  }
+
+  .profile-icon-img {
+    z-index: 2;
+    width: 90%;
+    height: auto;
+    border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .profile-box {
+    width: 48%;
+  }
+
   .introduction-text {
     margin: 0 auto;
     max-width: 800px;
@@ -27,19 +78,21 @@
   color: black;
 }
 
-.about-table a:hover{
+.about-table a:hover {
   color: red;
 }
 
-.about-table th, td{
+.about-table th,
+td {
   padding-bottom: 0.5em;
 }
+
 .about-table th {
   padding-right: 5px;
 }
 
 
-.mail-icon-text{
+.mail-icon-text {
   max-width: 24px;
   height: 24px;
 }
@@ -49,17 +102,21 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
 
-
-.about-h1{
-  padding: 25px;
+.profile-wrap {
   opacity: 0;
   animation: aboutAnimation 1.0s .3s;
   animation-fill-mode: forwards;
+}
+
+
+.about-h1 {
+  padding: 25px;
 }
 
 
@@ -70,6 +127,6 @@
 }
 
 .home-link-text {
-  text-decoration:none;
+  text-decoration: none;
   color: black;
 }

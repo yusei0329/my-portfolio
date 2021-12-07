@@ -38,7 +38,6 @@ exports.onRouteUpdate = ({ location }) => {
     //   }
     // };
 
-
     const targetElement = document.querySelectorAll(".post-link");
     //console.log(targetElement);
     document.addEventListener("scroll", function () {
@@ -68,4 +67,6 @@ exports.onRouteUpdate = ({ location }) => {
     })
   }
 };
+
+
 
