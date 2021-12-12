@@ -84,7 +84,7 @@
 }
 
 @keyframes hideAnimation {
-	0% {
+	100% {
 		opacity: 0;
 	}
 }
@@ -170,7 +170,8 @@
 	padding-bottom: 50px;
 }
 
-.arrow-icon.hide {
-	opacity: 0;
-	animation: none;
+.arrow-box.hide {
+	opacity: 1;
+	animation: hideAnimation 2.0s ease;
+	animation-fill-mode: forwards;
 }

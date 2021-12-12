@@ -52,7 +52,7 @@ exports.onRouteUpdate = ({ location }) => {
     })
 
     //ArrowHide
-    const arrowElement = document.querySelector(".arrow-icon");
+    const arrowElement = document.querySelector(".arrow-box");
     //console.log(arrowElement);
     document.addEventListener("scroll", function () {
       const getArrowElementDistance = arrowElement.getBoundingClientRect().top;

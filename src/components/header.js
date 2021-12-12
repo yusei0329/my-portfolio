@@ -1,5 +1,5 @@
 import React from 'react'
-import { useStaticQuery, graphql , Link} from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import "../styles/header.css"
 import { AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
 import { RiUserLocationFill } from "react-icons/ri"
@@ -41,8 +41,8 @@ const Header = () => {
         </p>
         <div className="contact">
           <h3 className="about-me-text">
-            <Link to= "/aboutPage">
-              <FaShare size="1.5rem"/>
+            <Link to="/aboutPage">
+              <FaShare size="1.5rem" />
               About Me
             </Link>
           </h3>
@@ -50,16 +50,19 @@ const Header = () => {
             <AiOutlineMail size="2rem" />
             {data.site.siteMetadata.user.email}
           </a>
-          <a className="github-text" href={githublink} target="_blank" rel = "noreferrer">
+          <a className="github-text" href={githublink} target="_blank" rel="noreferrer">
             <AiOutlineGithub size="2rem" />
             GitHub
           </a>
         </div>
-        <div className="arrow-icon">
-          <a>
-            <BsArrowDown size="2rem" />
-          </a>
+        <div className="arrow-box">
+          <div className="arrow-icon">
+            <a>
+              <BsArrowDown size="2rem" />
+            </a>
+          </div>
         </div>
+
       </div>
     </header>
   )
