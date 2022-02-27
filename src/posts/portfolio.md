@@ -10,7 +10,7 @@ skills: "Gatsby.js, GraphiQL"
 
 ・作品をまとめるために作成.<br>
 ・表示速度を高速化したいと考えシングルページで構成.<br>
-・またGraphiQLを用いることで、動的に各作品ページを生成.<br>
+・またGraphiQLを用いることで, 動的に各作品ページを生成.<br>
 ・白を基調としたシンプルなデザイン.<br>
 <br>
 ・使用技術<br>Gatsby.js, GraphiQL
